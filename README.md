@@ -4,13 +4,19 @@
 This project investigates whether crypto traders on the Hyperliquid exchange act rationally or if they are driven by the psychological cycles of **Fear and Greed**. The goal was to align market sentiment with transactional data to uncover behavioral patterns and formulate actionable trading "Rules of Thumb."
 
 ### 🔧 The Pipeline
-1. **Data Engineering:** - Merged two disparate datasets: Daily Bitcoin Fear/Greed Index and high-frequency Hyperliquid trade logs ( in IST timestamps).
+
+1. **Data Engineering:**  
+   - Merged two disparate datasets: Daily Bitcoin Fear/Greed Index and high-frequency Hyperliquid trade logs (IST timestamps).  
    - Aggregated **211,224 individual trades** into daily account-level metrics, calculating daily PnL, Win Rate, Volume, and Trade Frequency per user.
-2. **Exploratory Data Analysis:** - I have Visualized the distribution of PnL and Win Rates across 5 sentiment tiers (Extreme Fear to Extreme Greed).
-3. **Machine Learning :** - Deployed **K-Means Clustering** on standardized lifetime trader metrics to mathematically identify distinct behavioral segments
-                      - **Scalpers:** These are algorithmic bots or highly disciplined day traders.
-                      - **Whales:** These are institutional players or heavily capitalized veterans. They wait patiently for the perfect setup and deploy huge amounts of capital.
-                      - **Retail:** This represents the typical emotional crypto trader. They lack the capital to be Whales, and they lack the discipline to be Scalpers.
+
+2. **Exploratory Data Analysis:**  
+   - Visualized the distribution of PnL and Win Rates across 5 sentiment tiers (Extreme Fear to Extreme Greed).
+
+3. **Machine Learning:**  
+   - Deployed **K-Means Clustering** on standardized lifetime trader metrics to mathematically identify distinct behavioral segments:
+     - **Scalpers:** Algorithmic bots or highly disciplined high-frequency traders.
+     - **Whales:** Institutional or heavily capitalized traders who deploy large position sizes strategically.
+     - **Retail Traders:** Emotion-driven traders with smaller capital bases and higher exposure to behavioral bias.
 
 ---
 
