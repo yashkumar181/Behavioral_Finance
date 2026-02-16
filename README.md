@@ -57,7 +57,7 @@ Based on these findings, I propose the following algorithmic rules:
 ## 💻 How to Run This Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/primetrade-trader-analysis.git
+   git clone https://github.com/yashkumar181/Behavioral_Finance
 
 2. Install dependencies:
    ```bash
