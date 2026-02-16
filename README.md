@@ -1,5 +1,6 @@
 # 📊 Trader Behavior Insights vs. Market Sentiment
-**Data Science Intern Assignment - Primetrade.ai** ## 1. Project Overview & Methodology
+**Data Science Intern Assignment - Primetrade.ai** 
+## 1. Project Overview & Methodology
 This project investigates whether crypto traders on the Hyperliquid exchange act rationally or if they are driven by the psychological cycles of **Fear and Greed**. The goal was to align market sentiment with transactional data to uncover behavioral patterns and formulate actionable trading "Rules of Thumb."
 
 ### 🔧 The Pipeline
