@@ -74,4 +74,7 @@ Based on these findings, I propose the following algorithmic rules:
    pip install -r requirements.txt
 
 3. Run the Jupyter Notebooks in the notebooks/ folder to reproduce the analysis.
+4. To run the Streamlit app locally:
+   ```bash
+   streamlit run app.py
   
